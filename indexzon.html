@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <title>Velzon Admin Dashboard Template</title>
+  <style>
+  .dmocl{
+          display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 26px;
+   max-width: 100%;
+   width: 100%;
+    margin: 24px auto;
+    padding: 0 24px;
+    }
+	.demo-card { text-align: center; min-width: 0; }
+	.demo-card a:hover .imgboxs { transform: translateY(-4px); box-shadow: 0 8px 24px #00000012; }
+    .demo-card h3 { font-size: 14px; font-weight: 500; color: #74788d; margin: 12px 0 0; }
+        .imgboxs {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid #eef0f3;
+      border-radius: 6px;
+      transition: transform .25s ease, box-shadow .25s ease;
+    }
+	    .imgboxs2 {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid #eef0f3;
+      border-radius: 6px;
+      transition: transform .25s ease, box-shadow .25s ease;
+    }
+	.demo-card a:hover .imgboxs2 { transform: translateY(-4px); box-shadow: 0 8px 24px #00000012; }
+	
+	
+	.section4 { text-align: center; margin: 70px auto 30px; padding: 0 20px; }
+    .section4 h2 { font-size: 30px; font-weight: 400; margin: 0 0 10px; color: #40516b; }
+	    .div-bordr { border-bottom: 2px solid #299cdb; width: 55px; margin: 0 auto 18px; }
+    .section4 p { color: #74788d; line-height: 1.6; margin: 0 auto }
+	
+	.sec4-img{
+	  text-align: center;
+    display: flex;
+    width: 100%;
+    height: auto;
+	    margin-bottom: 25px;
+    transition: transform .25s ease, box-shadow .25s ease;
+    }
+   .sec4-img  .imges4{
+	width: 95%;
+    height: auto;
+    margin: 20px 20px 10px 20px;
+	}
+	 .imges4 hover{ transform: translateY(-4px); box-shadow: 0 8px 24px #00000012; }
+	
+	.sec4-img h3 { font-size: 14px; font-weight: 500; color: #74788d; margin: 12px 0 0; }
+	.section5 {
+     text-align: center;
+    margin: 70px;
+    }
+	.img4{
+	text-align:center;
+	width:50%;
+	height:auto;
+	margin-left:50%;
+	}
+	.sec4-img h4{
+	text-align:center;
+	margin-left:400px;
+	}
+	
+	.section6 { text-align: center; margin: 70px auto 30px; padding: 0 20px; }
+    .section6 h2 { font-size: 30px; font-weight: 400; margin: 0 0 10px; color: #40516b; }
+	    .div-bordr { border-bottom: 2px solid #299cdb; width: 55px; margin: 0 auto 18px; }
+    .section6 p { color: #74788d; line-height: 1.6; margin: 0 auto }
+	
+	
+	.sec6-img{
+	  text-align: center;
+    display: flex;
+    width: 100%;
+    height: auto;
+	    margin-bottom: 25px;
+    transition: transform .25s ease, box-shadow .25s ease;
+    }
+   .sec6-img  .imges6{
+	width: 95%;
+    height: auto;
+	}
+	 .imges6 hover{ transform: translateY(-4px); box-shadow: 0 8px 24px #00000012; }
+	
+	.sec6-img h3 { font-size: 14px; font-weight: 500; color: #74788d; margin: 12px 0 0; }
+	.section5 {
+     text-align: center;
+    margin: 70px;
+    }
+	
+	.img6{
+	text-align:center;
+	width:50%;
+	height:auto;
+	margin-left:50%;
+	}
+	.sec6-img h4{
+	text-align:center;
+	margin-left:400px;
+	}
+	.sect-6 {
+     text-align: center;
+    margin: 70px;
+    }
+	
+	
+	  .box1 {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding-left: 7%;
+    height: 500px;
+    align-content: center;
+    background-color: #F3F6F9;
+  }
+	
+	 .box2 {
+  float:left;
+  width: 50%;
+  align-content: center;
+  height: 500px;
+  background-color:#F3F6F9;
+  }
+	.section7{
+	text-align:center;
+	align-items:center;
+	
+	}
+	
+	
+	*{ box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #40516b;
+      background: #fff;
+	  overflow-x: hidden;
+    }
+    a { text-decoration: none; }
+    .envato-header { width: 100%; }
+    .top-bar {
+      background: #1a1a1a;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      padding: 10px 5%;
+      font-size: 13px;
+    }
+    .logo { font-weight: 700; font-size: 18px; }
+    .logo span { font-weight: 400; color: #ccc; }
+    .buy-btn {
+      display: inline-block;
+      background: #82b440;
+      color: #fff;
+      padding: 7px 14px;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 600;
+      border: 1px solid #82b440;
+    }
+    .buy-btn:hover { background: #6d9b35; border-color: #6d9b35; }
+    .main-navbar {
+      background: #fff;
+      border-bottom: 1px solid #eef0f3;
+      padding: 15px 5%;
+    }
+    .nav-container {
+      max-width: 1300px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 28px;
+    }
+    .brand-logo { display: flex; align-items: center; flex-shrink: 0; }
+    .logo-img { display: block; max-height: 36px; max-width: 180px; width: auto; object-fit: contain; }
+    .menu {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      gap: 22px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .menu a { color: #74788d; font-size: 14px; }
+    .menu a:hover { color: #0ab39c; }
+    .section1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      text-align: center;
+      margin: 70px 20px 0;
+    }
+    .pic1 { width: 24px; height: 24px; object-fit: contain; }
+    .section1 h1 { font-size: 24px; margin: 0; color: #40516b; }
+    .section1 h1 span {
+      display: inline-block;
+      background: #e8f5fb;
+      color: #299cdb;
+      font-size: 13px;
+      font-weight: 400;
+      padding: 5px 8px;
+      margin-left: 9px;
+      border-radius: 4px;
+      vertical-align: middle;
+    }
+    .heading-div { text-align: center; margin: 42px auto 0; padding: 0 20px; }
+    .heading-div h2 {
+      font-size: clamp(28px, 4vw, 40px);
+      max-width: 850px;
+      color: #0ab39c;
+      margin: 0 auto;
+      line-height: 1.2;
+    }
+    .heading-div p {
+      max-width: 850px;
+      line-height: 1.7;
+      margin: 18px auto;
+      color: #74788d;
+    }
+    .heading-div p span { color: #9599ad; }
+    .template-btn { text-align: center; margin: 30px 0 55px; display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; }
+    .template-btn a { display: inline-block; padding: 12px 20px; color: #fff; border-radius: 6px; }
+    .template-btn .b1 { background: red; }
+    .template-btn .b2 { background: #299cdb; }
+    .template-btn .b3 { background: #0ab39c; }
+    .template-btn a:hover { filter: brightness(.92); }
+    .tech-row {
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      flex-wrap: wrap;
+      gap: 18px 26px;
+      max-width: 1200px;
+	 
+      margin: 28px auto;
+      padding: 0 24px;
+    }
+    .tech-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      min-width: 135px;
+      color: #74788d;
+      font-size: 14px;
+    }
+    .tech-item img { width: 24px; height: 24px; object-fit: contain; }
+    .section2 { text-align: center; margin: 70px auto 30px; padding: 0 20px; }
+    .section2 h2 { font-size: 30px; font-weight: 400; margin: 0 0 10px; color: #40516b; }
+    .div-bordr { border-bottom: 2px solid #299cdb; width: 55px; margin: 0 auto 18px; }
+    .section2 p { color: #74788d; line-height: 1.6; margin: 0 auto 35px; max-width: 850px; }
+    .main-box {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 26px;
+      max-width: 1200px;
+	  
+      margin: 24px auto;
+      padding: 0 24px;
+    }
+
+    
+    @media (max-width: 850px) {
+      .nav-container { align-items: flex-start; flex-direction: column; gap: 18px; }
+      .menu { justify-content: flex-start; gap: 14px 18px; }
+      .main-box { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 520px) {
+      .top-bar { padding: 10px 16px; }
+      .main-navbar { padding: 14px 16px; }
+      .section1 { margin-top: 45px; }
+      .section1 h1 { font-size: 21px; }
+      .heading-div { margin-top: 30px; }
+      .main-box { grid-template-columns: 1fr; gap: 20px; padding: 0 18px; }
+      .tech-row { gap: 16px; }
+      .section2 h2 { font-size: 25px; }
+    }
+	
+	.section3 { text-align: center; margin: 70px auto 30px; padding: 0 20px; }
+    .section3 h2 { font-size: 30px; font-weight: 400; margin: 0 0 10px; color: #40516b; }
+    .div-bordr { border-bottom: 2px solid #299cdb; width: 55px; margin: 0 auto 18px; }
+    .section2 p { color: #74788d; line-height: 1.6; margin: 0 auto}
+	
+	
+	
+    
+
+    
+    @media (max-width: 850px) {
+      .nav-container { align-items: flex-start; flex-direction: column; gap: 18px; }
+      .menu { justify-content: flex-start; gap: 14px 18px; }
+      .main-box2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 520px) {
+      .top-bar { padding: 10px 16px; }
+      .main-navbar { padding: 14px 16px; }
+      .section1 { margin-top: 45px; }
+      .section1 h1 { font-size: 21px; }
+      .heading-div { margin-top: 30px; }
+      .main-box { grid-template-columns: 1fr; gap: 20px; padding: 0 18px; }
+      .tech-row { gap: 16px; }
+      .section2 h2 { font-size: 25px; }
+    }
+	
+	
+	
+	.box-img{
+	width:50%;
+	height:300px;
+	}
+	
+  .box3 {
+    width: 100%;
+    background-color: #192A3F;
+    text-align: center;
+    padding: 60px 20px 30px 20px;
+	  }
+  .box3 h1{
+        text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    color: white;
+    line-height: 1.5;
+    font-size: 1.75rem;
+    font-weight: 600;
+  }
+  .box3 p{
+  color: rgba(255,255,255,.5);
+  }
+	
+.counter-div{
+display:flex;
+    justify-content: center;
+	    margin-top: 75px;
+}
+.countrs{
+padding: 0 30px;
+}
+
+.countrs h2{
+color:white;
+font-size:32px;
+font-weight:600;
+}	
+	.countrs p{
+	color:#0ab39c;
+	line-height:1.5;
+	}
+	
+.dash-div{
+    margin-top: 80px;
+}
+.dash-img{
+width:30%;
+height:auto;
+}	
+    .section9 { text-align: center; margin: 70px auto 30px; padding: 0 20px; }
+    .section9 h2 { font-size: 30px; font-weight: 400; margin: 0 0 10px; color: #40516b; }
+	    .div-bordr { border-bottom: 2px solid #299cdb; width: 55px; margin: 0 auto 18px; }
+    .section9 p { color: #74788d; line-height: 1.6; margin: 0 auto }
+
+    .counter-img{
+display:flex;
+    justify-content: center;
+	  margin-top:75px; 
+		
+}
+.count {
+    padding: 40px;
+    border: 1px solid white;
+    background-color: #f3f6f9;
+    margin: 7px 10px;
+}
+
+
+.count-img {
+width:20%;
+}	
+	.count p{
+	color:black;
+	line-height:1.5;
+	padding-top:15px;
+	}
+
+   .count .count-img1{
+   width:15px;
+   }
+
+     .counter-img2 {
+display:flex;
+    justify-content: center;
+	  margin-top:18px; 
+		
+}
+.count2 {
+    padding: 43px;
+    border: 1px solid white;
+    background-color: #f3f6f9;
+    margin: 7px 10px;
+}
+
+
+.count-img2 {
+width:20%;
+}	
+	.count2 p{
+	color:black;
+	line-height:1.5;
+	padding-top:15px;
+	}
+   
+   .count2 .count-imgg{
+   width:15px;
+   }
+   
+   
+   
+    .counter-img3 {
+    display:flex;
+    justify-content: center;
+    margin-top:18px; 
+		
+}
+.count3 {
+    padding: 35px;
+    border: 1px solid white;
+    background-color: #f3f6f9;
+    margin: 7px 10px;
+}
+
+
+   .count-img3 {
+    width:20%;
+   }	
+	.count3 p{
+	color:black;
+	line-height:1.5;
+	padding-top:15px;
+	}
+   
+   .count3 .count-imgg{
+   width:34px;
+   }
+
+    .section10 { text-align: center; }
+    .section10 h2 { font-size: 30px; font-weight: 400; margin: 0 0 10px; color: #40516b; margin-top:115px; }
+	    .div-bordr { border-bottom: 2px solid #299cdb; width: 55px; margin: 0 auto 18px; }
+    .section10 p { color: #74788d; line-height: 1.6; margin: 0 auto }
+
+    .cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    }
+	
+   
+
+
+.card {
+    background-color: #ffffff;
+    border: 1px dashed #cccccc;
+    border-radius: 8px;
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+	margin-right:20px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #718096;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.card-author {
+    font-size: 14px;
+    color: #4a5568;
+    text-align: right;
+}
+.card-author span {
+    color: #2b6cb0;
+    font-weight: bold;
+}
+
+   .card2 {
+    background-color: #ffffff;
+    border: 1px dashed #cccccc;
+    border-radius: 8px;
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card2-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 20px;
+}
+
+.card2-text {
+    font-size: 14px;
+    color: #718096;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.card2-author {
+    font-size: 14px;
+    color: #4a5568;
+    text-align: right;
+}
+.card2-author span {
+    color: #2b6cb0;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+.footr-sectn{
+padding: 50px 0 0 0;
+background-color:#192a3f;
+text-align:center;
+margin-top:60px;
+}
+.footr-sctn1 h3{
+color: white;
+font-size:30px;
+font-weight:600;
+}	
+.Purchase-btn{
+    color: #fff;
+    background-color: rgb(192, 80.8, 57.6);
+    border-color: rgb(180, 75.75, 54);
+	padding:15px 18px;
+	margin-top:70px;
+	border-radius:10px;
+}
+	
+	.purchs-div{
+	margin-top:50px;
+	}
+	.footr-sctn2{
+	    padding: 25px 0 25px 50px;
+    background-color: #152436;
+	margin-top: 50px;
+	text-align:left;
+
+	}
+	.footr-sctn2 p{
+	color:#9599ad;
+	}
+	
+  </style>
+</head>
+<body>
+  <header class="envato-header">
+    <div class="top-bar">
+      <div class="logo">envato<span>market</span></div>
+      <a href="#" class="buy-btn">Buy Now</a>
+    </div>
+  </header>
+
+  <header class="main-navbar">
+    <div class="nav-container">
+      <a href="#" class="brand-logo">
+        <img src="logoo.png" alt="Themesbrand logo" class="logo-img">
+      </a>
+      <nav aria-label="Main navigation">
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Changelog</a></li>
+          <li><a href="#">Docs</a></li>
+          <li><a href="#">Download</a></li>
+          <li><a href="#">Videos</a></li>
+          <li><a href="#">Github</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Hire Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="section1">
+      <img src="s.png" alt="" class="pic1">
+      <h1>VELZON <span>v4.4.4</span></h1>
+    </div>
+
+    <section class="heading-div">
+      <h2>Velzon 24 in 1 Premium Multipurpose Admin &amp; Dashboard Template</h2>
+      <p><span>Velzon is an admin dashboard template built with</span> Bootstrap v5.3.6, Next.js TypeScript, React JS, React TypeScript, React Laravel Inertia, Angular 21, Vue 3, Laravel + VueJs, Laravel 13, Django, ASP.Net Core 8, CodeIgniter 4, Symfony, PHP, NodeJs, Ajax, Cake PHP, Flask, AIOHTTP, Svelte, ASP.Net MVC, Yii 2, Bottle &amp; Spring Boot. <span>You can build web applications like eCommerce, CRM, CMS, project management apps and admin panels using Velzon.</span></p>
+    </section>
+
+    <div class="template-btn">
+      <a href="#" class="b1">Purchase Now</a>
+      <a href="#" class="b2">Docs</a>
+      <a href="#" class="b3">Download</a>
+    </div>
+
+    <div class="tech-row">
+      <a href="#" class="tech-item"><img src="bootstrap.png" alt="">Bootstrap 5</a>
+      <a href="#" class="tech-item"><img src="nextjs.png" alt="">Next TS</a>
+      <a href="#" class="tech-item"><img src="reactjs.png" alt="">React JS</a>
+      <a href="#" class="tech-item"><img src="typescript.png" alt="">React + TypeScript</a>
+      <a href="#" class="tech-item"><img src="inertia.png" alt="">React Laravel Inertia</a>
+      <a href="#" class="tech-item"><img src="angular.png" alt="">Angular 21</a>
+      <a href="#" class="tech-item"><img src="vuejs.png" alt="">Vue 3</a>
+      <a href="#" class="tech-item"><img src="Laravel-Vue.png" alt="">Laravel + Vue</a>
+      <a href="#" class="tech-item"><img src="Laravel.png" alt="">Laravel 13</a>
+      <a href="#" class="tech-item"><img src="django.png" alt="">Django</a>
+      <a href="#" class="tech-item"><img src="asp-core-5.png" alt="">ASP.NET Core 8</a>
+      <a href="#" class="tech-item"><img src="codeigniter.png" alt="">CodeIgniter 4</a>
+      <a href="#" class="tech-item"><img src="symfony.png" alt="">Symfony</a>
+      <a href="#" class="tech-item"><img src="Php.png" alt="">PHP</a>
+      <a href="#" class="tech-item"><img src="ajax.png" alt="">Ajax</a>
+      <a href="#" class="tech-item"><img src="nodejs.png" alt="">Node.js</a>
+      <a href="#" class="tech-item"><img src="cake-php.png" alt="">Cake PHP</a>
+      <a href="#" class="tech-item"><img src="flask.png" alt="">Flask</a>
+      <a href="#" class="tech-item"><img src="aiohttp.png" alt="">AIOHTTP</a>
+      <a href="#" class="tech-item"><img src="svelte.png" alt="">Svelte</a>
+      <a href="#" class="tech-item"><img src="asp-core-5.png" alt="">ASP.NET MVC</a>
+      <a href="#" class="tech-item"><img src="yii.png" alt="">Yii 2</a>
+      <a href="#" class="tech-item"><img src="bottle-2.png" alt="">Bottle</a>
+      <a href="#" class="tech-item"><img src="spring.png" alt="">Spring Boot</a>
+    </div>
+
+    <section class="section2">
+      <h2>LIGHT VERSIONS</h2>
+      <div class="div-bordr"></div>
+      <p>Velzon admin dashboard template built with HTML and Sass support. This section shows different available dashboard and landing-page demos.</p>
+    </section>
+
+    <section class="main-box">
+      <div class="demo-card"><a href="#"><img src="d1.png" alt="Master demos preview" class="imgboxs"><h3>Master Demos</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="d2.png" alt="Default preview" class="imgboxs"><h3>Default</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="d3.png" alt="Saas preview" class="imgboxs"><h3>Saas</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="d4.png" alt="Material preview" class="imgboxs"><h3>Material</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="d5.png" alt="Galaxy preview" class="imgboxs"><h3>Galaxy</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="d6.png" alt="Corporate preview" class="imgboxs"><h3>Corporate</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="d7.png" alt="Minimal preview" class="imgboxs"><h3>Minimal</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="d8.png" alt="Creative preview" class="imgboxs"><h3>Creative</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="d9.png" alt="Modern preview" class="imgboxs"><h3>Modern</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="d10.png" alt="Interactive preview" class="imgboxs"><h3>Interactive</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="d11.png" alt="Classic preview" class="imgboxs"><h3>Classic (Only Master Demo)</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="d12.png" alt="Vintage preview" class="imgboxs"><h3>Vintage (Only Master Demo)</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="d13.png" alt="Landing page preview" class="imgboxs"><h3>Landing Page</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="d14.png" alt="NFT landing page preview" class="imgboxs"><h3>NFT Landing Page</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="d15.png" alt="Job landing page preview" class="imgboxs"><h3>Job Landing Page</h3></a></div>
+    </section>
+  <section class="section3">
+      <h2>Dark Versions</h2>
+      <div class="div-bordr"></div>
+      <p>Velzon has 11 different types of demos with multiple layouts and modes which simply managed with attributes only. Also<br> supported RTL and LRT modes.</p>
+    </section>
+  
+  <section class="dmocl">
+      <div class="demo-card"><a href="#"><img src="dark1.png" alt="Master demos preview" class="imgboxs2"><h3>Master Demos</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="dark2.png" alt="Default preview" class="imgboxs2"><h3>Default</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="dark3.png" alt="Saas preview" class="imgboxs2"><h3>Saas</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="dark4.png" alt="Material preview" class="imgboxs2"><h3>Material</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="dark5.png" alt="Galaxy preview" class="imgboxs2"><h3>Galaxy</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="dark6.png" alt="Corporate preview" class="imgboxs2"><h3>Corporate</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="dark7.png" alt="Minimal preview" class="imgboxs2"><h3>Minimal</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="dark8.png" alt="Creative preview" class="imgboxs2"><h3>Creative</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="dark9.png" alt="Modern preview" class="imgboxs2"><h3>Modern</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="dark10.png" alt="Interactive preview" class="imgboxs2"><h3>Interactive</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="dark11.png" alt="Classic preview" class="imgboxs2"><h3>Classic (Only Master Demo)</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="dark12.png" alt="Vintage preview" class="imgboxs2"><h3>Vintage (Only Master Demo)</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="dark13.png" alt="Landing page preview" class="imgboxs2"><h3>Landing Page</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="dark14.png" alt="NFT landing page preview" class="imgboxs2"><h3>NFT Landing Page</h3></a></div>
+      <div class="demo-card"><a href="#"><img src="dark15.png" alt="Job landing page preview" class="imgboxs2"><h3>Job Landing Page</h3></a></div>
+    </section>
+   </main>
+  
+  <section class="section4">
+      <h2>Master Demos Features</h2>
+      <div class="div-bordr"></div>
+      <p>Velzon has 11 different types of demos with multiple layouts and modes which simply managed with attributes only. Also<br> supported RTL and LRT modes.</p>
+    </section>
+	
+  <div class="section5">	
+  <div class="sec4-img">
+  <div>
+  <img src="new1.png" alt="new1" class="imges4">
+  <h3>Master Demos</h3>
+  </div>
+   <div>
+  <img src="new2.png" alt="new3" class="imges4"><h3>Classic</h3></div>
+ <div> 
+ <img src="new3.png" alt="new3" class="imges4"><h3>Vintage</h3>
+  </div>
+  </div>
+  
+  <div class="sec4-img">
+  <div>
+  <img src="new4.png" alt="new1" class="imges4">
+  <h3>Colors Variant One</h3></div>
+  <div>
+  <img src="new5.png" alt="new3" class="imges4"><h3>Colors Variant Two</h3></div>
+  <div>
+  <img src="new6.png" alt="new3" class="imges4"><h3>Colors Variant Three</h3></div>
+  </div>
+  
+  <div class="sec4-img">
+  <div>
+  <img src="new7.png" alt="new1" class="img4">
+  <h4>Sidebar User Avatar</h4></div>
+  </div>
+  </div>
+  
+  <section class="section6">
+      <h2>Apps Pages</h2>
+      <div class="div-bordr"></div>
+      <p>This is the best way to get started if you want to build something similar or use from existing featured apps which will<br>reduce the cost, efforts and time of the developers.</p>
+    </section>
+  
+  <div class="sect-6">	
+  <div class="sec6-img">
+  <div>
+  <img src="E1.png" alt="E1" class="imges6">
+  <h3>Calendar</h3>
+  </div>
+   <div>
+  <img src="E2.png" alt="E3" class="imges6"><h3>Chat</h3></div>
+ <div> 
+ <img src="E3.png" alt="E3" class="imges6"><h3>Mailbox</h3>
+  </div>
+  </div>
+  
+  <div class="sec6-img">
+  <div>
+  <img src="E4.png" alt="E4" class="imges6">
+  <h3>Products</h3></div>
+  <div>
+  <img src="E5.png" alt="new3" class="imges6"><h3>Product Details</h3></div>
+  <div>
+  <img src="E6.png" alt="new3" class="imges6"><h3>Order Details</h3></div>
+  </div>
+  
+  
+  	
+  <div class="sec6-img">
+  <div>
+  <img src="E7.png" alt="new1" class="imges6">
+  <h3>Seller Details</h3>
+  </div>
+   <div>
+  <img src="E8t.png" alt="new3" class="imges6"><h3>Project List</h3></div>
+ <div> 
+ <img src="E9.png" alt="new3" class="imges6"><h3>Project Details</h3>
+  </div>
+  </div>
+  
+  <div class="sec6-img">
+  <div>
+  <img src="E10.png" alt="new1" class="imges6">
+  <h3>Kanban Board</h3></div>
+  <div>
+  <img src="E11.png" alt="new3" class="imges6"><h3>Tasks List</h3></div>
+  <div>
+  <img src="E12.png" alt="new3" class="imges6"><h3>CRM - Deals</h3></div>
+  </div>
+  
+  	
+  <div class="sec6-img">
+  <div>
+  <img src="E13.png" alt="new1" class="imges6">
+  <h3>Crypto - Transactions</h3>
+  </div>
+   <div>
+  <img src="E14.png" alt="new3" class="imges6"><h3>ICO List</h3></div>
+ <div> 
+ <img src="E15.png" alt="new3" class="imges6"><h3>Crypto - Buy & Sell</h3>
+  </div>
+  </div>
+  
+  <div class="sec6-img">
+  <div>
+  <img src="E16.png" alt="new1" class="imges6">
+  <h3>Tickets Details</h3></div>
+  <div>
+  <img src="E17.png" alt="new3" class="imges6"><h3>Invoice Details</h3></div>
+  <div>
+  <img src="E18.png" alt="new3" class="imges6"><h3>Marketplace</h3></div>
+  </div>
+  
+  	
+  <div class="sec6-img">
+  <div>
+  <img src="E19.png" alt="new1" class="imges6">
+  <h3>Explore Now</h3>
+  </div>
+   <div>
+  <img src="E20.png" alt="new3" class="imges6"><h3>Collections</h3></div>
+ <div> 
+ <img src="E21.png" alt="new3" class="imges6"><h3>File Manager</h3>
+  </div>
+  </div>
+  
+  <div class="sec6-img">
+  <div>
+  <img src="E22.png" alt="new1" class="imges6">
+  <h3>To Do</h3></div>
+  <div>
+  <img src="E23.png" alt="new3" class="imges6"><h3>Job Lists</h3></div>
+  <div>
+  <img src="E24.png" alt="new3" class="imges6"><h3>Candidate Grid</h3></div>
+  </div>
+  
+  
+  <div class="sec6-img">
+  <div>
+  <img src="E25.png" alt="new1" class="img6">
+  <h4>API Key</h4></div>
+  </div>
+  </div>
+  
+  
+    <div class="section7">
+	 <div class="box1">
+	      <h1>Ready-to-use Admin<br> Dashboards & Landings</h1> 
+		  <p>This is the best way to get started if you want to build<br> something similar or use from existing featured apps which will<br> reduce the cost, efforts and time of the developers.</p>
+	 </div>
+	
+	<div class="box2">
+	     <img src="E6.png" alt="img" class="box-img">
+	 </div>
+	</div>
+  
+  <div class="section8">
+	 <div class="box3">
+	      <h1>Quick, developer-friendly and<br> Powerful</h1> 
+		  <p>Velzon - Admin Dashboard Template is easily customizable and developer-friendly codes to quick start with any project.</p>
+		  
+	   <div class="counter-div">
+	     <div class="countrs">
+		 <h2>11+</h2>
+		 <p>Different Layouts & Counting</p>
+	     </div>
+		<div class="countrs">
+		 <h2>23+</h2>
+		 <p>Multi Languages & Counting</p>
+	     </div>
+		 <div class="countrs">
+		 <h2>185+</h2>
+		 <p>Pages, Apps & Counting</p>
+	     </div>
+		 <div class="countrs">
+		 <h2>39,000+</h2>
+		 <p>Happy Users & Counting</p>
+	     </div>
+	   </div>
+	   <div class="dash-div">
+	   <img src="E10.png" alt="dashboard" class="dash-img">
+	   </div>
+	 </div>
+	 </div>
+	 
+  <section class="section9">
+      <h2>Key Features</h2>
+      <div class="div-bordr"></div>
+      <p>Velzon - Admin Dashboard Template is easily customizable, developer-friendly codes, fully responsive<br> design, SASS support and many more features to quick start with any project.</p>
+	  
+	    <div class="counter-img">
+	     <div class="count">
+		<img src="bootstrap.png" alt="png1" class="count-img">
+		 <p>Bootstrap v5.3.6</p>
+	     </div>
+		<div class="count">
+		 <img src="responsive.png" alt="png1" class="count-img">
+		 <p>Fully Responsive</p>
+	     </div>
+		 <div class="count">
+		<img src="gulp.png" alt="png1" class="count-img1">
+		 <p>Gulp Workflow</p>
+	     </div>
+		 <div class="count">
+		<img src="layout.png" alt="png1" class="count-img">
+		 <p>Multiple Demos</p>
+	     </div>
+		  <div class="count">
+		 <img src="javascript.png" alt="png1" class="count-img">
+		 <p>Pure JavaScript</p>
+	     </div>
+	   </div>
+	  
+	  
+	   <div class="counter-img2">
+	     <div class="count2">
+		<img src="browser.png" alt="png1" class="count-img2">
+		 <p>Cross Browser</p>
+	     </div>
+		<div class="count2">
+		 <img src="layers.png" alt="png1" class="count-img2">
+		 <p>Rich Components</p>
+	     </div>
+		 <div class="count2">
+		<img src="font.png" alt="png1" class="count-imgg">
+		 <p>15k+ Font Icons</p>
+	     </div>
+		 <div class="count2">
+		<img src="sass.png" alt="png1" class="count-img2">
+		 <p>SASS Support</p>
+	     </div>
+		  <div class="count2">
+		 <img src="customize.png" alt="png1" class="count-img2">
+		 <p>1 Day Support</p>
+	     </div>
+	   </div>
+	  
+	   
+	   <div class="counter-img3">
+	     <div class="count3">
+		<img src="file.png" alt="png1" class="count-img3">
+		 <p>Well Documentation</p>
+	     </div>
+		<div class="count3">
+		 <img src="apps.png" alt="png1" class="count-img3">
+		 <p>14+ Apps</p>
+	     </div>
+		 <div class="count3">
+		<img src="dark-mode.png" alt="png1" class="count-imgg">
+		 <p>Dark & Light Layouts<br> Easy Customization</p>
+	     </div>
+		 <div class="count3">
+		<img src="customize.png" alt="png1" class="count-img3">
+		 <p>Easy Customization</p>
+	     </div>
+		  <div class="count3">
+		 <img src="captcha.png" alt="png1" class="count-img3">
+		 <p>Lifetime Free Update</p>
+	     </div>
+	   </div>
+	  
+	  
+	  
+    </section>
+  
+     <section class="section10">
+      <h2>Best Quality products.</h2>
+      <div class="div-bordr"></div>
+      <p>Velzon - Admin Dashboard Template is easily customizable and developer-<br> friendly codes to quick start with any project.</p>
+  <div class="cards"> 
+    <div class="card">
+        <h3 class="card-title">Code Quality</h3>
+        <p class="card-text">
+            " We have used your other templates as well and seems it's amazing with the design and code quality. Wish you best for the future updates. Keep updated you will be #1 in near future. "
+        </p>
+        <div class="card-author">
+            - By <span>Khush_3048</span>
+        </div>
+    </div>
+    <div class="card2">
+        <h3 class="card2-title">Code Quality</h3>
+        <p class="card2-text">
+            " We have used your other templates as well and seems it's amazing with the design and code quality. Wish you best for the future updates. Keep updated you will be #1 in near future. "
+        </p>
+        <div class="card2-author">
+            - By <span>Khush_3048</span>
+        </div>
+    </div>
+  </div>
+  
+  
+  
+  <div class="footr-sectn">
+     <div class="footr-sctn1">
+        <h3>Build your web App/SaaS with Velzon dashboard</h3>
+        <p>Velzon to get a kick start with your new project.</p>
+      <div class="purchs-div">
+        <a href="#" class="Purchase-btn">Purchase Now</a>
+      </div>
+    </div>
+	<div class="footr-sctn2">
+	<p>2026 © Velzon - Themesbrand.com</p>
+	</div>
+  </div>
+</body>
+</html>
